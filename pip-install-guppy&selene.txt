@@ -1,3 +1,4 @@
+pip install qiskit qiskit-ibm-runtime ecdsa numpy matplotlib
 (Depending on the code version, some use guppy, others use guppylang.)
 pip install guppy selene-sim
 pip install guppy-sim selene-sim qnexus-client
