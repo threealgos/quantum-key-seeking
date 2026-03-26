@@ -1,3 +1,4 @@
+// OpenQASM 2.0
 // QASM code to generate random bits using a quantum circuit
 
 // Define the quantum circuit
