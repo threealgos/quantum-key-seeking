@@ -1,4 +1,6 @@
-Donation Please for my Quantum Project 1Bu4CR8Bi5AXQG8pnu1avny88C5CCgWKfb / 1NEJcwfcEm7Aax8oJNjRUnY3hEavCjNrai
+Some Donations Please for my Next Quantum Project :
+
+1Bu4CR8Bi5AXQG8pnu1avny88C5CCgWKfb / 1NEJcwfcEm7Aax8oJNjRUnY3hEavCjNrai
 
 Support This is my LTC Litecoin address for the next version of public-addresses: LdJX6Zr43PBekv11eKBfrMtpH78qi96Mef
 
@@ -6,15 +8,10 @@ USDT-TRON TQ1cxj8csRyWUzkonf5XgYUyFGsDJn1k7J
 
 USDT-BSC 0x3fa39005a6bb18d0e2546d97b24a767cc393b03a
 
-TODO: The Next PRoject is To Reveal A Supiriot Version That Will Use Probabilistic Algorithm of Pbits Jumps Will be Used to Reduce All the Puzzles of BTC given Rangs to 2.0 % Targeting Public-addresses . 
-
-Example of Probabilistic Quantum Code :
+TODO: The Next Project is To Reveal A Supirior Version That Will Use Probabilistic Algorithm of Pbits Jumps Will be Used to Reduce All the Puzzles of BTC given Rangs to 2.0 % Targeting Public-Addresses . 
 
 
-
-
-
-# Features:
+# Features: Probabilistic Quantum Code :
 #   • Works with public address ONLY (Puzzle 71)
 #   • Works with public address + public key (Puzzle 135)
 #   • Fully interactive - asks for EVERYTHING
