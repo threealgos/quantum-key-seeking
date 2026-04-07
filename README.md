@@ -10,8 +10,10 @@ USDT-BSC 0x3fa39005a6bb18d0e2546d97b24a767cc393b03a
 
 TODO: The Next Project is To Reveal A Supirior Version That Will Use Probabilistic Algorithm of Pbits Jumps Will be Used to Reduce All the Puzzles of BTC given Rangs to 2.0 % Targeting Public-Addresses . 
 
+# =================================== 
+# The Probabilistic Quantum Code :
+# Will Features: 
 
-# Features: Probabilistic Quantum Code :
 #   • Works with public address ONLY (Puzzle 71)
 #   • Works with public address + public key (Puzzle 135)
 #   • Fully interactive - asks for EVERYTHING
@@ -22,13 +24,13 @@ TODO: The Next Project is To Reveal A Supirior Version That Will Use Probabilist
 #   • Counter for measurement distribution
 #   • Current IBM free backends (kingston, fez, marrakech)
 #   • Verbose comments everywhere
-# =============================================================================
+# ===================================
 # 1. INSTALLATION (run this cell first in Google Colab)
 
 # !pip install qiskit qiskit-ibm-runtime ecdsa pycryptodome base58
 
 # 2. IMPORTS
-# =============================================================================
+# ===================================
 
 import numpy as np
 from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
@@ -70,7 +72,7 @@ def address_to_hash160(address: str) -> bytes:
     return hash160
 
 
-# =============================================================================
+# ===================================
 # 4. MAIN QUANTUM CLASS
 
 class QuantumProbabilisticRangeReducer:
@@ -244,9 +246,9 @@ class QuantumProbabilisticRangeReducer:
         return start_range, end_range
 
 
-# =============================================================================
+# ====================================
 # 5. FULL INTERACTIVE LAUNCH - ASKS FOR EVERYTHING
-# =============================================================================
+# ====================================
 if __name__ == "__main__":
     print("="*90)
     print("FINAL BIG FULLY EXPANDED QISKIT QUANTUM PROBABILISTIC RANGE REDUCER")
