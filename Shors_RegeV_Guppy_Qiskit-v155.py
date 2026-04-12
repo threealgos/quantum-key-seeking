@@ -101,7 +101,7 @@ SMALL_PRIMES = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 PRESETS = {
     "16":  {"bits": 16,  "start": 0x8000,
             "pub": "03ccb5e3ad4abc7900ebfbd81621e31ec2b17b346090e741921a91bf9cadf934c5",
-            "shots": 16384},
+            "shots": 32768},
     "21":  {"bits": 21,  "start": 0x90000,
             "pub": "037d14b19a95fe400b88b0debe31ecc3c0ec94daea90d13057bde89c5f8e6fc25c",
             "shots": 32768},
@@ -1217,7 +1217,7 @@ def main():
                     counts = run_selene_github(bits, dxs, dys, shots)
             except Exception as e:
                 print(f"⚠️ SELENE-GitHub failed: {e}")
-                for _ in range(max(shots, 8192)):
+                for _ in range(max(shots, 16384)):
                     fake = np.random.randint(0, 1 << bits)
                     counts[bin(fake)[2:].zfill(bits)] += 1
 
@@ -1237,7 +1237,7 @@ def main():
                     counts = run_selene_github(bits, dxs, dys, shots)
             except Exception as e:
                 print(f"⚠️ SELENE-PyPI failed: {e}")
-                for _ in range(max(shots, 8192)):
+                for _ in range(max(shots, 16384)):
                     fake = np.random.randint(0, 1 << bits)
                     counts[bin(fake)[2:].zfill(bits)] += 1
 
@@ -1351,6 +1351,7 @@ def main():
 
         print("🔍 Drawing circuit...")
         print(qc)
+        print("🔍 Drawing circuit...")
         qc.draw('mpl', style='iqp', plot_barriers=True, fold=40)
         plt.title(f"DRAGON_CODE_FUTURE — {'Shor QPE mode ' + str(selected_mode_id) if algo_choice == '2' else 'Regev'} ({bits}-bit)")
         plt.tight_layout()
