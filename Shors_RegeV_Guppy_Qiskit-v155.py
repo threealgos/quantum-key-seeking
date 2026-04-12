@@ -1,12 +1,13 @@
-# ===========================================================================================
 # Hi i-Realy Apperciated you get me A Donation here_ 1Bu4CR8Bi5AXQG8pnu1avny88C5CCgWKfb /////
-# ===========================================================================================
-# 🔥🐉 DRAGON_CODE_FUTURE — ULTIMATE QUANTUM ECDLP SOLVER (v155) — QISKIT REAL HARDWARE 🔥🐉
-# ===========================================================================================
+# ===========================================================================================#
+#                               ———————————————————————                                      |_
+# 🔥🐉 DRAGON_CODE_FUTURE — ULTIMATE QUANTUM ECDLP SOLVER (v155) — QISKIT REAL HARDWARE 🔥🐉 |_
+# ===========================================================================================#
+#
 # COMBINES:
 # - BASIC : Pure Shor's style, geometric QPE, universal post-processing
 # - EXTRA : Regev, fault-tolerance, full range, modern Qiskit API
-# ===========================================================================================
+# ===========================================================================================###
 #
 # FEATURES:
 # - Multi-dimensional Regev algorithm (d ≈ √bits)
@@ -20,7 +21,7 @@
 # - Pauli Twirling (replaces manual ZNE)
 # - 16-bit default with all Bitcoin Puzzle Presets.
 #
-# ===========================================================================================
+# ===========================================================================================#
 
 import os
 import sys
